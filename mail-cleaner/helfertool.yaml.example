@@ -1,0 +1,13 @@
+# you do not need a separate config file, just use the helfertool.yaml file from your deployment
+# this is a simplified versoin containing the relevant settings
+
+mail:
+    receive:
+        host: "localhost"
+        port: 993
+        user: "helfertool"
+        password: "<PASSWORD>"
+        tls: true
+        starttls: false
+
+        folder: "INBOX"
