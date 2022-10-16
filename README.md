@@ -5,7 +5,7 @@
 Helfertool can parse incoming mails and extract the non-delivery reports.
 Therefore, an IMAP mailbox is required that contains these incoming mails.
 
-The tool only marks the handled mails are read, but does not delete them.
+The tool only marks the handled mails as read, but does not delete them.
 If you also want to delete old mails, you can use the `mail-cleaner.py` script to achieve this.
 
 It uses the same `helfertool.yaml` config file as Helfertool:

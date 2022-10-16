@@ -1,12 +1,12 @@
 #!/usr/bin/env python3
 
 import argparse
-import yaml
-import imaplib
-import sys
-import socket
 import datetime
+import imaplib
 import locale
+import socket
+import sys
+import yaml
 
 # command line arguments
 parser = argparse.ArgumentParser(description="Cleanup old mails from IMAP folder")
